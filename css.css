@@ -1,0 +1,170 @@
+
+ body {
+  margin: 0px;
+ }
+ body * {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1024px;
+    margin: 0 auto;
+    
+}
+.text1{
+  display: flex;
+  color:  #FFFFFF;
+ flex-direction: row; 
+ 
+align-self: center;
+padding-top: 100px;
+
+}
+.span{
+  display: flex;
+  margin-right: 0px;
+  width: 500px;
+  height: 300px;
+  background: #111111a1
+}
+.exp{
+  height: 40px;
+  background: #2196F3;
+  color: #FFFFFF  ;
+  font-size: 16px;
+  border: none;
+  margin-top: 40px;
+}
+.bg2{
+  background: url(mountains.png);
+  height:700px;
+}
+.background-menu{
+  background: #128afa;
+}
+.ikon{
+  background: #646464;
+  height: 200px;
+}
+.icon2{
+  padding-top: 50px;
+  display: flex;
+flex-direction: row;
+justify-content:space-around;
+color: #FFFFFF;
+font-size: 24px;
+}
+.text2{
+  align-self: stretch;
+  width: 50%;
+  padding-right: 30px;
+}
+p {
+  padding-bottom: 50px;
+}
+header {
+  background: url(header_bg.png);
+  width:100% ;
+  padding-top: 100px;
+  height: 400px;
+}
+
+.ftw{
+width: 70%;
+align-content: flex-end;
+margin-top: 3px;
+margin-left: 100px;
+
+
+}
+.to-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+}
+.parent{
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.child1,
+.child2,
+.child3,
+.child4{
+
+  color: #FFFFFF;
+}
+.child1{
+  font-size: 36px;
+}
+h1 {
+  padding-bottom: 50px;
+  margin: 0px; 
+}
+
+.b2{
+  background: url(castle.png);
+  height:680px;
+  width: 100%;
+  margin: 0px;  
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 70%;
+  background: #FFFFFF;
+}
+form.example button {
+  float: left;
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+  background: #2196F3;
+  color: #FFFFFF  ;
+  font-size: 16px;
+  border: 2px solid #FFFFFF;
+  border-left: none; 
+  cursor: pointer;
+}
+.child3 img {
+width: 20px;
+}
+
+.child3,
+.child4{
+   margin-top: 20px;
+  }
+ .menu{
+   display: flex;
+   justify-content: space-between;
+  
+  height: 40px;
+  width: 100%;
+}
+ nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px
+}
+.menu a {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding: 5px;
+color: #FFFFFF;
+text-decoration: none;
+ padding-left: 24px;
+ padding-right: 24px;
+}
+.logo{
+  color: #FFFFFF;
+font-size: 20px;
+margin: 5px;
+}
+.menu a:hover{
+  text-decoration:underline;
+}
